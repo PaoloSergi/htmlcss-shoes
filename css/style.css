@@ -6,6 +6,36 @@
 
 .container{
     font-family: 'Rubik Mono One', sans-serif;
+    position: relative;
+}
+
+nav{
+    display: inline-block;
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    z-index: 100;
+}
+
+button{
+    border: none;
+    margin-left: 20px;
+    border-radius: 50%;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik Mono One', sans-serif;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 19px;
+    border-radius: 50%;
+}
+
+a:hover{
+    border: 2px solid grey;
 }
 
 section{
@@ -16,17 +46,17 @@ section{
     position: relative;
 }
 
-section.shoesBlue{
+section#shoesBlue{
     background-color: red;    
     color: yellow;
 }
 
-section.shoesWhite{
+section#shoesWhite{
     background-color: green;
     color: yellow;
 }
 
-section.shoesGreen{
+section#shoesGreen{
     background-color: yellow;
     color: green;
 }
