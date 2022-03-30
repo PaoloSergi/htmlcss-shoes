@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container{
     font-family: 'Rubik Mono One', sans-serif;
     position: relative;
 }
 
 nav{
-    display: inline-block;
+    /* display: inline-block; */
     position: fixed;
     top: 40px;
     right: 20px;
